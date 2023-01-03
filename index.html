@@ -58,9 +58,10 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WeatherXRSimulation.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WeatherXRSimulation.data",
-        frameworkUrl: buildUrl + "/WeatherXRSimulation.framework.js",
-        codeUrl: buildUrl + "/WeatherXRSimulation.wasm",
+        dataUrl: buildUrl + "/WeatherXRSimulation.data.gz",
+        frameworkUrl: buildUrl + "/WeatherXRSimulation.framework.js.gz",
+        codeUrl: buildUrl + "/WeatherXRSimulation.wasm.gz",
+        symbolsUrl: buildUrl + "/WeatherXRSimulation.symbols.json.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WeatherXRSimulation",
